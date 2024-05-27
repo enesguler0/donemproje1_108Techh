@@ -1,0 +1,544 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## **Q1 : IMS platformunun belirlenmesi**
+
+### Lisans
+
+SuiteCRM, açık kaynaklı bir müşteri ilişkileri yönetimi (CRM)
+platformudur ve GNU Affero Genel Kamu Lisansı (AGPL) v3 ile
+lisanslanmıştır. Bu lisans, kullanıcıların yazılımı özgürce
+kullanmasına, değiştirmesine ve dağıtmasına izin verirken, aynı zamanda
+değiştirilmiş sürümlerin de aynı lisans altında dağıtılmasını zorunlu
+kılar.
+
+### Kısa Tarihçesi
+
+SuiteCRM, 2013 yılında SugarCRM Community Edition'ın devamı olarak
+SalesAgility tarafından geliştirilmeye başlanmıştır. SugarCRM, ticari
+sürümlere odaklandığı için açık kaynak topluluğu SuiteCRM'yi başlatarak
+açık kaynaklı CRM çözümlerine olan talepleri karşılamayı amaçlamıştır.
+SuiteCRM, SugarCRM'nin kod tabanını temel almış ve zaman içinde kendi
+özelliklerini ve iyileştirmelerini ekleyerek büyümeye devam etmiştir.
+
+### Kullanıcıya Sunduğu Özellikler
+
+SuiteCRM, kullanıcılarına kapsamlı bir CRM deneyimi sunar. İşte başlıca
+özellikleri:
+
+-   Satış Yönetimi: Potansiyel müşteriler, fırsatlar ve teklifler
+    yönetimi.
+
+-   Pazarlama Otomasyonu: Kampanya yönetimi, e-posta pazarlama, hedef
+    listeleri oluşturma.
+
+-   Müşteri Desteği: Destek talepleri, bilgi tabanı, müşteri geri
+    bildirimleri.
+
+-   Raporlama ve Analitik: Kapsamlı raporlar, görsel gösterge panoları,
+    veri analizi.
+
+-   Proje Yönetimi : Proje planlama, görev yönetimi, zaman takibi.
+
+-   Mobil Uyumlu: Mobil cihazlar için optimize edilmiş arayüzler.
+
+-   Sosyal CRM : Sosyal medya entegrasyonları.
+
+-   Doküman Yönetimi: Doküman depolama ve yönetimi.
+
+-   Eklenti ve Modüller: Ekstra işlevsellik sağlayan modüller ve
+    eklentiler.
+
+-   Gelişmiş Güvenlik: Rol bazlı erişim kontrolleri ve güvenlik
+    özellikleri.
+
+### Platformun Kullandığı Yazılım, Veritabanı ve Diğer Teknolojiler
+
+SuiteCRM, çeşitli teknolojiler kullanılarak geliştirilmiştir. İşte
+bazıları:
+
+-   Yazılım: PHP
+
+-   Veritabanı: MySQL veya MariaDB
+
+-   Web Sunucusu: Apache veya Nginx
+
+-   İstemci Tarafı Teknolojileri : JavaScript, HTML, CSS
+
+-   İşletim Sistemi : Platform bağımsız (Linux, Windows, MacOS)
+
+### API Özellikleri
+
+SuiteCRM, RESTful API'ler ve SOAP API'ler sunar. Bu API'ler sayesinde
+dış uygulamalarla entegrasyon sağlanabilir. API'lerin sunduğu başlıca
+özellikler şunlardır:
+
+-   Veri Erişimi: Modüller ve kayıtlar üzerinde CRUD (Create, Read,
+    Update, Delete) işlemleri.
+
+-   Oturum Yönetimi : Kullanıcı oturumlarının yönetimi.
+
+-   Arama İşlemleri Kayıtlar arasında arama yapma.
+
+-   E-posta Gönderimi : E-posta kampanyalarının yönetimi ve gönderimi.
+
+-   Raporlama : Veri raporlarının çekilmesi ve analizi.
+
+-   Kullanıcı Yönetimi : Kullanıcı ve rol yönetimi.
+
+### IMS Kategorisi / Platform Seçiminde Rol Oynayan Sebepler
+
+SuiteCRM gibi bir platform seçilmesinde çeşitli sebepler rol
+oynayabilir. İşte bunlardan bazıları:
+
+-   Özel İlgi Alanları : Açık kaynaklı yazılım çözümlerine olan ilgi ve
+    katkı sağlama isteği.
+
+-   Daha Önceki Deneyimler : Daha önce SugarCRM veya benzeri CRM
+    platformları ile çalışma deneyimi.
+
+-   Sektör Hacmi ve Popülerliği : CRM pazarının büyüklüğü ve
+    SuiteCRM'nin popülerliği.
+
+-   Maliyet : SuiteCRM'nin açık kaynak ve ücretsiz olması, lisans
+    maliyetlerini düşürmesi.
+
+-   Esneklik ve Özelleştirilebilirlik : SuiteCRM'nin modüler yapısı ve
+    özelleştirilebilir olması.
+
+-   Topluluk Desteği : Geniş bir kullanıcı ve geliştirici topluluğunun
+    varlığı, destek ve kaynakların bolluğu.
+
+-   Entegrasyon Yeteneği : SuiteCRM'nin çeşitli üçüncü parti uygulamalar
+    ve hizmetlerle entegrasyon yetenekleri.
+
+SuiteCRM, esnek yapısı, güçlü özellikleri ve açık kaynaklı doğası ile
+birçok işletmenin CRM ihtiyaçlarını karşılayabilecek yetkinliktedir. Bu
+rapor, SuiteCRM hakkında genel bir bilgi sağlamayı amaçlamaktadır ve
+platformun avantajları ve kullanım alanları hakkında fikir vermektedir.
+
+## **Q2 : Dataset tanımı**
+
+#### Veri Kaynağı:
+
+Veri seti, Kaggle.com'dan temin edilmiştir. Kaggle, veri bilimcileri ve
+makine öğrenimi meraklıları için popüler bir platformdur ve çeşitli veri
+setleri sağlar.
+
+#### İçerik:
+
+Veri seti, yaklaşık 2500 müşterinin adı-soyadı, yaşı, medeni durumu,
+gelir seviyesi, harcama oranı, kaç çocuklu olduğu, eğitim seviyesi gibi
+bilgileri içermektedir.
+
+#### Veri Toplama Şartları:
+
+Veri seti, kullanıcılar tarafından gönüllü olarak sağlanan ve
+anonimleştirilmiş bilgilerden oluşmaktadır. Bu, veri gizliliği ve
+güvenliği açısından önemlidir.
+
+#### Format:
+
+Veri seti genellikle CSV (Comma-Separated Values) formatında
+sunulmaktadır. Bu format, veri analizi ve işleme için yaygın olarak
+kullanılan bir formattır.
+
+#### Boyut:
+
+Veri seti, yaklaşık 2500 satır ve birkaç sütundan oluşmaktadır. Satırlar
+her bir müşteriyi, sütunlar ise müşterilere ait özellikleri temsil
+etmektedir.
+
+### Veriyi IMS'e İthal Etme Planı:
+
+#### Veri Hazırlığı:
+
+-   İlk olarak, veriyi temizleyip doğrulamak için bir ön işleme aşaması
+    gerçekleştirilecektir. Eksik veya hatalı veriler düzeltilecek veya
+    uygun şekilde işaretlenecektir.
+
+-   Veri Formatlama: CSV dosyasındaki veriler, SuiteCRM'nin veri ithal
+    etme gereksinimlerine uygun hale getirilecektir. Bu, sütun adlarının
+    doğru bir şekilde eşleştirilmesini ve veri tiplerinin uyumlu
+    olmasını içerir.
+
+-   Veri İthali: SuiteCRM'nin veri ithalat aracı kullanılarak veriler
+    sisteme yüklenecektir. Bu süreçte, SuiteCRM'nin sunduğu arayüz veya
+    REST API'ler kullanılabilir.
+
+### Veriyi R ile Çekme Planı:
+
+-   API Kullanımı: SuiteCRM'nin RESTful API'leri kullanılarak veriler R
+    ortamına çekilecektir. API üzerinden veri çekmek, otomatik ve güncel
+    veri alımı sağlar.
+
+-   Veritabanı Bağlantısı: Alternatif olarak, SuiteCRM'nin kullandığı
+    MySQL veritabanına doğrudan bağlantı kurularak veri çekilebilir.
+    R'da DBI ve RMySQL paketleri kullanılarak veritabanına erişim
+    sağlanabilir.
+
+## **Q3 : İş tanımı**
+
+### 108 Tech: Müşteri Veri Analizi Şirketi
+
+#### Kuruluş Tanımı
+
+108 Tech, müşterilerimizin verilerini analiz ederek doğru kitleye
+hedefli indirimler sağlamak amacıyla faaliyet gösteren bir müşteri veri
+analizi şirketidir. Amacımız, müşterilerimizin satış ve pazarlama
+stratejilerini optimize etmelerine yardımcı olmak ve daha yüksek dönüşüm
+oranları elde etmelerini sağlamaktır.
+
+##### Aktiviteler ve Rutin Operasyonlar
+
+-   Veri Toplama ve Hazırlık
+
+-   Müşterilerimizden gelen veri setlerinin toplanması.
+
+-   Verilerin temizlenmesi ve formatlanması.
+
+-   Eksik verilerin tamamlanması ve doğrulanması.
+
+    #### 2. Veri Analizi
+
+-   Veri madenciliği ve modelleme tekniklerinin kullanılması.
+
+-   İstatistiksel analiz ve veri görselleştirme.
+
+-   Makine öğrenimi algoritmalarının uygulanması.
+
+#### 3. Hedef Kitle Segmentasyonu
+
+-   Müşteri davranışları ve demografik özelliklere göre segmentasyon
+    yapılması.
+
+-   Satın alma alışkanlıklarının ve müşteri değerinin analiz edilmesi.
+
+#### 4. İndirim Stratejileri Geliştirme
+
+-   Hedef kitleye uygun indirim kampanyalarının tasarlanması.
+
+-   Farklı indirim stratejilerinin etkisinin değerlendirilmesi.
+
+#### 5. Raporlama ve Tavsiyeler
+
+-   Analiz sonuçlarının detaylı raporlar halinde sunulması.
+
+-   Stratejik tavsiyelerin verilmesi ve uygulanabilir çözümler
+    önerilmesi.
+
+## Gelir Modeli
+
+\- Proje Bazlı Ücretlendirme: Belirli projeler veya analizler için
+müşterilerden alınan tek seferlik ücretler.
+
+\- Abonelik Ücreti: Sürekli veri analizi ve raporlama hizmetleri için
+aylık veya yıllık abonelik ücretleri.
+
+\- Performans Tabanlı Ücretlendirme: Sağlanan hizmetlerin sağladığı ek
+gelir veya tasarruf üzerinden komisyon alınması.
+
+\- Ek Hizmetler: Özelleştirilmiş raporlar, danışmanlık hizmetleri ve
+entegrasyon çözümleri için ek ücretler.
+
+## Zorluklar ve Avantajlar
+
+### Zorluklar
+
+1\. Veri Kalitesi: Müşterilerden gelen verilerin eksik, hatalı veya
+düzensiz olması analizi zorlaştırabilir.
+
+2\. Gizlilik ve Güvenlik: Müşteri verilerinin güvenliği ve gizliliğinin
+sağlanması önemli bir önceliktir.
+
+3\. Teknolojik Gelişmeler: Veri analitiği ve makine öğrenimi
+teknolojilerinin hızla gelişmesi, sürekli güncel kalmayı gerektirir.
+
+4\. Rekabet: Veri analizi alanındaki yüksek rekabet, müşteri kazanımını
+ve sadakatini zorlaştırabilir.
+
+### Avantajlar
+
+1\. Veri Odaklı Yaklaşım : Karar verme süreçlerini veri ile
+destekleyerek daha etkili sonuçlar elde edilebilir.
+
+2\. Özelleştirilmiş Hizmetler : Müşterilere özel çözümler sunarak
+rekabet avantajı sağlanabilir.
+
+3\. Gelişmiş Teknoloji Kullanımı : Makine öğrenimi ve yapay zeka
+teknikleri ile daha derinlemesine ve isabetli analizler yapılabilir.
+
+4\. Müşteri Memnuniyeti : Doğru hedef kitleye ulaşan indirimler ile
+müşteri memnuniyeti ve sadakati artırılabilir.
+
+## Rakipler ve Karşılaştırma
+
+### Rakipler
+
+#### 1. Palantir
+
+\- Avantajları : Gelişmiş analitik platformlar, geniş müşteri portföyü,
+yüksek veri işleme kapasitesi.
+
+\- Dezavantajları : Yüksek maliyet, karmaşık entegrasyon süreçleri.
+
+#### 2. SAS Institute
+
+\- Avantajları : Uzun yıllara dayanan deneyim, güçlü analitik araçlar,
+kapsamlı eğitim ve destek hizmetleri.
+
+\- Dezavantajları : Yüksek lisans maliyetleri, kurulum ve öğrenme
+sürecinin uzun olması.
+
+#### 3. IBM Watson Analytics
+
+\- Avantajları : Güçlü yapay zeka ve makine öğrenimi yetenekleri, geniş
+veri entegrasyon seçenekleri.
+
+\- Dezavantajları : Kompleks yapı, yüksek maliyet, küçük işletmeler için
+fazla karmaşık olabilir.
+
+#### 4. Google Analytics 360
+
+\- Avantajları : Kullanıcı dostu arayüz, güçlü veri entegrasyonları,
+geniş kullanım alanı.
+
+\- Dezavantajları : Özelleştirme sınırlamaları, veri gizliliği
+endişeleri.
+
+### Bizim Avantajlarımız
+
+\- Esneklik ve Özelleştirme : 108 Tech olarak, müşterilere özel çözümler
+sunarak onların spesifik ihtiyaçlarına uygun hizmetler sağlıyoruz.
+
+\- Maliyet Etkinliği : Rekabetçi fiyatlandırma modellerimiz ile küçük ve
+orta ölçekli işletmelere de ulaşabiliyoruz.
+
+\- Gizlilik ve Güvenlik : Müşteri verilerinin güvenliğine ve gizliliğine
+verdiğimiz önem ile güven sağlıyoruz.
+
+\- Hızlı Uygulama : Daha küçük ve çevik bir ekip olarak, hızlı çözüm
+geliştirme ve uygulama yeteneğine sahibiz.
+
+108 Tech olarak, müşterilerimizin verilerini en iyi şekilde analiz
+ederek onlara değer katmaya ve pazarlama stratejilerini optimize etmeye
+devam ediyoruz. Bu süreçte karşılaştığımız zorlukların üstesinden
+gelerek avantajlarımızı en iyi şekilde kullanmayı hedefliyoruz.
+
+## **Q4 : İyileştirme (optimizasyon) stratejisi**
+
+*Projenin son döneminde R kodu yazarak yapacağınız veri analizi
+sırasında, ne türlü bir fayda sağlamayı planladığınızı ve bunu nasıl
+yapacağınızı anlatın. Örnek : masraf azaltması, karlılık arttırılması,
+piyasa genişletilmesi, üretim hızlandırılması vs vs.*
+
+R kodu yazarak yapacağınız veri analizi sırasında şu tür faydalar
+sağlamayı planlıyoruz:
+
+-   Maliyet Azaltması
+
+-   Karlılık Artırılması
+
+-   Piyasa Genişletilmesi
+
+-   Üretim Hızlandırılması
+
+Veri analizi ile müşteri segmentlerini belirleyip, pazarlama
+stratejilerini optimize ederek bu faydaları sağlamayı hedefliyoruz.
+
+BÖLÜM 2:
+
+## **Q1: İş probleminin tanımı**
+
+Bu projede, SuiteCRM kullanılarak yaklaşık 2500 müşteriden oluşan bir
+veri seti üzerinde analizler gerçekleştirilecek. Veri seti, müşterilerin
+adı-soyadı, yaşı, medeni durumu, gelir seviyesi, harcama oranı, kaç
+çocuklu olduğu ve eğitim seviyesi gibi bilgileri içeriyor. Amacımız, bu
+verileri analiz ederek müşteri segmentasyonunu gerçekleştirmek, müşteri
+davranışlarını anlamak ve daha etkili pazarlama stratejileri
+geliştirmek. SuiteCRM'nin özelleştirilebilir yapısıyla sağladığı
+avantajları kullanarak, müşteri ilişkileri yönetiminde veri toplama,
+analiz etme ve stratejik karar alma süreçlerini optimize etmeyi
+hedefliyoruz. Elde edilen sonuçlar doğrultusunda, işletmenin pazarlama
+verimliliğini artıracak stratejik kararlar almayı planlıyoruz.
+
+## **Q2: İş problemini çözmede kullanılacak data seti**
+
+Veri seti, Kaggle.com'dan temin edilmiştir ve yaklaşık 2500 müşterinin
+adı, yaşı, medeni durumu, gelir seviyesi, harcama oranı, çocuk sayısı ve
+eğitim seviyesi gibi bilgileri içermektedir. Bu veriler, yapay olarak
+oluşturulmuş ve CSV formatında sunulmuştur. SuiteCRM platformuna entegre
+edilmek üzere düzenlenmiş olan bu veri seti, müşterilerin segmentlere
+ayrılması ve pazarlama stratejilerinin belirlenmesi için
+kullanılacaktır.
+
+## **Q3: Veri seti keşifsel analizi** $$20 puan$$
+
+---
+title: "Keşifsel Veri Analizi"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(GGally)
+library(ggcorrplot)
+
+```
+
+```{r setup, include=FALSE}
+## Veriyi Yükleme ve İnceleme
+# Bu bölümde veriyi yükleyecek ve ilk incelemeleri yapacağız.
+# Veriyi yükleme
+data <- read.csv("Train.csv")
+
+# Verinin ilk birkaç satırına bakalım
+head(data)
+
+# Verinin yapısını inceleyelim
+str(data)
+
+# Eksik değerleri kontrol edelim
+summary(data)
+
+# Eksik Değerlerin Yönetimi
+# Eksik değerlerin sayısını kontrol edecek ve gerekirse bu değerleri dolduracağız.
+
+# Eksik değerlerin sayısını kontrol edin
+sum(is.na(data))
+
+# Eksik değerlerin sütun bazında sayısı
+colSums(is.na(data))
+
+```
+
+```{r setup, include=FALSE}
+# Eksik değer içeren satırları kaldırın veya doldurun
+# data <- data %>% drop_na()  # Eksik değer içeren satırları kaldırır
+
+# veya eksik değerleri uygun şekilde doldurun
+data$Work_Experience[is.na(data$Work_Experience)] <- median(data$Work_Experience, na.rm = TRUE)
+data$Family_Size[is.na(data$Family_Size)] <- median(data$Family_Size, na.rm = TRUE)
+
+```
+
+```{r setup, include=FALSE}
+# Tek Değişkenli Analiz
+# Bu bölümde her bir değişkenin tek başına incelenmesine odaklanacağız.
+
+
+# Yaş değişkeninin histogramı
+ggplot(data, aes(x = Age)) +
+  geom_histogram(binwidth = 5, fill = "blue", color = "black") +
+  theme_minimal() +
+  labs(title = "Histogram of Age")
+
+# Özet istatistikler
+summary(data$Age)
+
+```
+
+```{r setup, include=FALSE}
+# Kategorik Değişkenlerin Bar Grafiği
+# Cinsiyet ve mezuniyet durumu gibi kategorik değişkenlerin dağılımını bar grafikleri ile inceliyoruz.
+
+# Cinsiyet değişkeninin bar grafiği
+ggplot(data, aes(x = Gender)) +
+  geom_bar(fill = "orange", color = "black") +
+  theme_minimal() +
+  labs(title = "Bar Plot of Gender")
+
+# Mezuniyet durumunun bar grafiği
+ggplot(data, aes(x = Graduated)) +
+  geom_bar(fill = "green", color = "black") +
+  theme_minimal() +
+  labs(title = "Bar Plot of Graduation Status")
+
+```
+
+```{r setup, include=FALSE}
+# İki Değişkenli Analiz
+# Bu bölümde iki değişken arasındaki ilişkileri inceleyeceğiz.
+
+
+# Cinsiyete göre yaş dağılımı (box plot)
+ggplot(data, aes(x = Gender, y = Age)) +
+  geom_boxplot() +
+  theme_minimal() +
+  labs(title = "Box Plot of Age by Gender")
+
+
+# Harcama Skoruna göre yaş dağılımı (box plot)
+ggplot(data, aes(x = Spending_Score, y = Age)) +
+  geom_boxplot() +
+  theme_minimal() +
+  labs(title = "Box Plot of Age by Spending Score")
+
+
+# Yaş ve Çalışma Tecrübesi arasındaki ilişki (scatter plot)
+ggplot(data, aes(x = Age, y = Work_Experience)) +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Scatter Plot of Age vs Work Experience")
+
+```
+
+```{r setup, include=FALSE}
+# Çok Değişkenli Analiz
+# Bu bölümde birden fazla değişkenin birlikte incelenmesine odaklanacağız.
+
+
+# Tüm sayısal değişkenler arasındaki korelasyon matrisi
+numeric_data <- data %>% select_if(is.numeric)
+cor_matrix <- cor(numeric_data, use = "complete.obs")
+
+# Korelasyon matrisini görselleştirin
+ggcorrplot(cor_matrix, lab = TRUE)
+
+
+# Pair plot (GGally paketi ile)
+ggpairs(data %>% select_if(is.numeric))
+
+```
+```{r setup, include=FALSE}
+#Raporun PDF Olarak Kaydedilmesi
+
+# Raporu PDF olarak kaydedin
+pdf("Analiz_Report.pdf")
+print(ggplot(data, aes(x = Age)) + geom_histogram(binwidth = 5, fill = "blue", color = "black") + theme_minimal() + labs(title = "Histogram of Age"))
+print(ggplot(data, aes(x = Gender)) + geom_bar(fill = "orange", color = "black") + theme_minimal() + labs(title = "Bar Plot of Gender"))
+print(ggplot(data, aes(x = Graduated)) + geom_bar(fill = "green", color = "black") + theme_minimal() + labs(title = "Bar Plot of Graduation Status"))
+print(ggplot(data, aes(x = Gender, y = Age)) + geom_boxplot() + theme_minimal() + labs(title = "Box Plot of Age by Gender"))
+print(ggplot(data, aes(x = Spending_Score, y = Age)) + geom_boxplot() + theme_minimal() + labs(title = "Box Plot of Age by Spending Score"))
+print(ggplot(data, aes(x = Age, y = Work_Experience)) + geom_point() + theme_minimal() + labs(title = "Scatter Plot of Age vs Work Experience"))
+print(ggcorrplot(cor_matrix, lab = TRUE))
+print(ggpairs(data %>% select_if(is.numeric)))
+dev.off()
+```
+
+## **Q4: Veri setinin BYS platformuna ihtali** $$20 puan$$
+
+Veri setini ithal etmek için öncelikle CRM sistemi üzerinden verimize uygun bir model
+oluşturup kolon adlarına ve tiplerine uygun bir şekilde belirledik. Ardından verileri arayüzde bulunan import seçeneği yardımıyla sisteme yüklemiş olduk.
+
+## **Q5 : Yapılması planlanan veri analizi** $$10 puan$$
+
+
+- Bu veri setini kullanarak, müşterilerimizi dört segmente ayırmayı ve
+her bir segmente uygun pazarlama stratejileri geliştirmeyi amaçlıyoruz.
+Segmentlere ayrılmış müşterilere, ilgi alanlarına ve ihtiyaçlarına uygun
+ürünlerin reklamını yaparak, pazarlama etkinliğimizi artırmayı ve
+müşteri memnuniyetini en üst seviyeye çıkarmayı hedefliyoruz. Bu
+strateji, her segment için özelleştirilmiş ve daha etkili pazarlama
+kampanyaları oluşturulmasını sağlayarak, satışlarımızı ve müşteri
+bağlılığımızı artırmada önemli bir rol oynayacaktır.
+
+
+
+## **Q6 : Çalışan platformun gösterildiği sesli anlatımlı video** $$30 puan$$
+
+- https://youtu.be/NWV1AH4LUsM
